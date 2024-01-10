@@ -1,0 +1,43 @@
+*{
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+}
+body{
+   font-family: Manrope; 
+}
+header{
+    background-color: chocolate;
+}
+.container{
+    width: 600px;
+    margin: 0 auto;
+}
+.cards{
+    display: flex;
+    justify-content: space-between;
+    flex-wrap: wrap;
+}
+.card{
+    margin: 20px 10px;
+    width: 100px;
+    height: 50px;
+}
+.card-img-top{
+    max-height: 70vh;
+    margin-top: 20px;
+}
+button{
+    width: 80px;
+    background-color: darkolivegreen;
+    border-color: transparent;
+    color: white;
+    padding: 10px 15px;
+    margin-top: 10px; 
+}
+input{
+    width: 300px;
+    padding: 8px; 
+    margin-top: 10px;
+    border-radius: 7px;
+}
